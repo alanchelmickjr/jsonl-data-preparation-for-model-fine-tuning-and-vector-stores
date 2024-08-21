@@ -56,19 +56,17 @@ Before running the script, ensure you have the following installed:
       ```
 4. **Set up Poppler-utils:**
 
-    Windows: Download and install Poppler from here.
+    - **Windows:** Download and install Poppler from [here](http://blog.alivate.com.au/poppler-windows/).
+    - **macOS:** Install via Homebrew:
 
-    macOS: Install via Homebrew:
+      ```sh
+      brew install poppler
+      ```
+    - **Linux:** Install via package manager:
 
-    sh
-
-    brew install poppler
-    
-    Linux: Install via package manager:
-    
-    sh
-
-    sudo apt-get install poppler-utils
+      ```sh
+      sudo apt-get install poppler-utils
+      ```
 
 5. **Configure OpenAI API key:**
 
