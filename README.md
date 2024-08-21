@@ -113,6 +113,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for the OCR engine.
 - [pdf2image](https://github.com/Belval/pdf2image) for converting PDF to images.
 
----
-
-Feel free to customize this README further to suit your project's needs!
