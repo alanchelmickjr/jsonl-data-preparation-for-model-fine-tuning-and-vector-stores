@@ -1,7 +1,3 @@
-Sure! Here's a comprehensive README for your GitHub repository, including an image reference for `transform.png`.
-
----
-
 # PDF to Text and JSONL Converter
 
 ![Transform](transform.png)
