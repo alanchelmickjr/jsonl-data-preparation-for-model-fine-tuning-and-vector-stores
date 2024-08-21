@@ -8,7 +8,7 @@ This project converts a PDF document into images, extracts text from those image
 
 - Convert PDF pages to images
 - Extract text from images using Tesseract OCR
-- Analyze Images and text, (side by side multimodal) and format text with the help of OpenAI's GPT model
+- Analyze Images and text, (side by side multimodal) and format meta-text with the help of OpenAI's GPT model
 - Segment text into sections and save as JSONL with metadata
 
 ![Transform](transform.jpg)
