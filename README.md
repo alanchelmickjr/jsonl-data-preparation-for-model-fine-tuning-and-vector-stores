@@ -1,6 +1,6 @@
 # PDF to Text and JSONL Converter
 
-![Transform](transform.jpg)
+<img src="transform.png" alt="Transform" width="500px"/>
 
 ## Overview
 
