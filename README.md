@@ -62,11 +62,11 @@ Before running the script, ensure you have the following installed:
 
     sh
 
-brew install poppler
-
-Linux: Install via package manager:
-
-sh
+    brew install poppler
+    
+    Linux: Install via package manager:
+    
+    sh
 
     sudo apt-get install poppler-utils
 
