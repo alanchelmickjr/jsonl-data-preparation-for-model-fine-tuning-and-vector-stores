@@ -13,7 +13,7 @@ client = OpenAI(
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Paths
-pdf_path = 'calc.pdf'
+pdf_path = 'your_input_file.pdf'
 output_image_dir = 'output_images'
 output_text_file = 'extracted_text.txt'
 output_jsonl_file = 'segmented_text.jsonl'
