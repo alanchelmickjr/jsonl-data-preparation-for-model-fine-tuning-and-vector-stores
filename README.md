@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  
+This is a command line Python tool to convert larger PDF (and more types to come) files into the stages necessary for Ai to break down context and evaluate, re-evaluate and compare its own visual system with photo and text copy and then exhaustively create metadata the can be imported for fine tuning or vectorized or both.  This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  
 
 ## I am currently tuning this project for gpt4o and gpt4o-mini and will be making updates all week. ***Stay Tuned***
 
