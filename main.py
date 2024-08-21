@@ -13,7 +13,7 @@ client = OpenAI(
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Paths
-pdf_path = 'your_input_file.pdf'
+pdf_path = 'calc.pdf'
 output_image_dir = 'output_images'
 output_text_file = 'extracted_text.txt'
 output_jsonl_file = 'segmented_text.jsonl'
@@ -81,12 +81,16 @@ def analyze_and_format_text(text):
 
 
 def segment_text_by_analysis(formatted_text):
-    # This function can be customized based on the formatted text returned by GPT # For now, we assume the formatted text is already sectioned appropriately
+    # This function can be customized based on the formatted text returned by GPT
+    # For now, we assume the formatted text is already sectioned appropriately
     sections = formatted_text.split('\n\n')
     segmented_text = []
     print("Segmenting text by analysis", end="")
     for section in sections:
-        title, content = section.split('\n', 1)
+        if '\n' in section:
+            title, content = section.split('\n', 1)
+        else:
+            title, content = section, ''
         segmented_text.append((title.strip(), content.strip()))
         print(".", end="", flush=True)
     print(" Done!")
