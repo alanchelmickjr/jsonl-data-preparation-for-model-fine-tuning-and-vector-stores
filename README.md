@@ -75,6 +75,8 @@ Before running the script, ensure you have the following installed:
     ```
 
     Follow the prompts to convert the PDF to images, extract text, analyze text, and segment text.
+    The script will skip pipeline steps if it sees the files exist, simply move or delete them to re-activate that step,
+    this feature allows for starting and stopping and errors without starting over.
 
 ## Script Details
 
