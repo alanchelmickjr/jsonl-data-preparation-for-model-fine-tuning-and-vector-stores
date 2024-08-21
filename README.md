@@ -132,5 +132,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [OpenAI](https://www.openai.com/) for their GPT model.
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for the OCR engine.
 - [pdf2image](https://github.com/Belval/pdf2image) for converting PDF to images.
-- [Popplert-utils]([https://github.com/Belval/pdf2image](https://poppler.freedesktop.org/)) for converting PDF to images.
+- [Poppler-utils](https://poppler.freedesktop.org/) for PDF rendering.
 
