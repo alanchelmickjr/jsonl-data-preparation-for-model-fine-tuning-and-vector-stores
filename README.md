@@ -1,7 +1,5 @@
 # PDF to Text and JSONL Converter
 
-<img src="transform.png" alt="Transform" width="500px"/>
-
 ## Overview
 
 This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model. The final output is saved as both a formatted text file and a JSONL file with metadata.
@@ -12,6 +10,8 @@ This project converts a PDF document into images, extracts text from those image
 - Extract text from images using Tesseract OCR
 - Analyze and format text with the help of OpenAI's GPT model
 - Segment text into sections and save as JSONL with metadata
+
+![Transform](transform.jpg)
 
 ## Prerequisites
 
