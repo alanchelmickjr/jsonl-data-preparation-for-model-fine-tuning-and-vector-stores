@@ -1,6 +1,6 @@
 # PDF to Text and JSONL Converter
 
-![Transform](transform.png)
+![Transform](transform.jpg)
 
 ## Overview
 
