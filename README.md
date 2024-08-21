@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  I a currently tuning this project for gpt4o and gpt4o-mini and will be making updates all week.
+This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  I am currently tuning this project for gpt4o and gpt4o-mini and will be making updates all week. ***Stay Tuned***
 
 ## Features
 
