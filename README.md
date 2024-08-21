@@ -62,7 +62,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Place your PDF file:**
 
-    Ensure your PDF file (e.g., `calc.pdf`) is in the project directory.
+    Ensure your PDF file (e.g., `your_input_file.pdf`) is in the project directory.
 
 2. **Run the script:**
 
