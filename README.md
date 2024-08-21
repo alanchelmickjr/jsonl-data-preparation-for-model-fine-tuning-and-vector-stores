@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a command line Python tool to convert larger PDF (and more types to come) files into a format that AI can use to fine-tune or vector search.
+This is a command line Python tool to convert larger PDF files into a format that AI can use to fine-tune a model or prime a vector search.
 
 This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  
 
