@@ -23,7 +23,8 @@ Before running the script, ensure you have the following installed:
 
 - Python 3.6+
 - Tesseract OCR
-- Required Python packages (listed in `requirements.txt`)
+- Poppler-utils (for PDF to image conversion)
+- Required Python packages (listed in requirements.txt)
 
 ## Installation
 
@@ -53,8 +54,23 @@ Before running the script, ensure you have the following installed:
       ```sh
       sudo apt-get install tesseract-ocr
       ```
+4. **Set up Poppler-utils:**
 
-4. **Configure OpenAI API key:**
+    Windows: Download and install Poppler from here.
+
+    macOS: Install via Homebrew:
+
+    sh
+
+brew install poppler
+
+Linux: Install via package manager:
+
+sh
+
+    sudo apt-get install poppler-utils
+
+5. **Configure OpenAI API key:**
 
     Replace the placeholder API key in the script with your actual OpenAI API key.
 
@@ -118,4 +134,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [OpenAI](https://www.openai.com/) for their GPT model.
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for the OCR engine.
 - [pdf2image](https://github.com/Belval/pdf2image) for converting PDF to images.
+- [Popplert-utils]([https://github.com/Belval/pdf2image](https://poppler.freedesktop.org/)) for converting PDF to images.
 
