@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model. The final output is saved as both a formatted text file and a JSONL file with metadata.
+This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model. The final output is saved as both a formatted text file and a JSONL file with metadata.  I a currently tuning this project for gpt4o and gpt4o-mini and will be making updates all week.
 
 ## Features
 
