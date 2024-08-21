@@ -1,5 +1,5 @@
 # PDF to Text and JSONL Converter
-
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/appticles/pwa-theme-woocommerce)
 ## Overview
 
 This is a command line Python tool to convert larger PDF files into a format that AI can use to fine-tune a model or prime a vector search.
