@@ -1,11 +1,10 @@
 # PDF to Text and JSONL Converter   [![Open Source](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]()
-## Overview (under construction, it works but developing a conversational component and a judge to prep for chat ingestion, including unstructured.io formatting options. ;)
 
 This is a command line Python tool to convert larger PDF files into a format that AI can use to fine-tune a model or prime a vector search.
 
 This project converts a PDF document into images, extracts text from those images using OCR (Optical Character Recognition), and then processes and formats the text using OpenAI's GPT model by comparing the image and text and creating metadata in a multimodal fashion. (the ai reviews the image and the text extracted by tesseract side by side) The final output is saved as both a formatted text file and a JSONL file with metadata.  
 
-## I am currently tuning this project for gpt4o and gpt4o-mini and will be making updates all week. ***Stay Tuned***
+## I am currently tuning this project for gpt4o and gpt4o-mini and will be making updates all September as I craft it to micro-tune and fade to develop models for specific purposes that react to small changes while maintaining a proper context. ***Stay Tuned***
 
 ## Features
 
